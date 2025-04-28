@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyALhzw6GYYoYzB3wjWE4Bfjc3dTsrdaw20</string>
+	<key>GCM_SENDER_ID</key>
+	<string>69021636635</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>GU.EduMatrix-Admin</string>
+	<key>PROJECT_ID</key>
+	<string>edumatrix-13756</string>
+	<key>STORAGE_BUCKET</key>
+	<string>edumatrix-13756.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:69021636635:ios:84586c6ede0b31e3d700be</string>
+</dict>
+</plist>
