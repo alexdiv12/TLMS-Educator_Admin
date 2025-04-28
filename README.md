@@ -1,78 +1,61 @@
-TLMS Educator Admin App
-Welcome to the TLMS Educator Admin application!
-This app is part of the TLMS (Teaching and Learning Management System) project and is built specifically for admin users to manage courses, educators, and user requests.
 
-📱 Project Overview
+
+# TLMS Educator Admin App
+
+Welcome to the TLMS Educator Admin application.  
+This app is part of the TLMS (Teaching and Learning Management System) project and is developed for admin users to manage educators, courses, and requests.
+
+## Project Overview
+
 The TLMS Educator Admin app allows administrators to:
+- Manage educator onboarding requests
+- Approve or reject course submissions
+- View and update educator profiles
+- Respond to user support queries
+- Manage and edit listed courses
+- Reset educator passwords when needed
 
-Manage educator onboarding requests.
+This project uses SwiftUI and Firebase as the backend.
 
-Approve or reject new course submissions.
+## Tech Stack
 
-View and edit educator profiles.
+- SwiftUI
+- Firebase Firestore
+- Firebase Authentication
+- MVVM Architecture
 
-Respond to help and support queries.
+## Project Structure
 
-View and manage all listed courses.
+- EduMatrix Admin/ - Main app source code
+- Assets.xcassets/ - Images and color assets
+- Extensions/ - SwiftUI extensions for utilities
+- GoogleService-Info.plist - Firebase configuration
 
-Reset educator passwords if required.
+## Getting Started
 
-This project is developed in SwiftUI and integrated with Firebase for backend services.
+1. Clone the repository
 
-🛠️ Tech Stack
-SwiftUI - For building modern, native UI.
+   git clone https://github.com/alexdiv12/TLMS-Educator_Admin.git
 
-Firebase Firestore - For data storage and real-time updates.
+2. Open EduMatrix Admin.xcodeproj in Xcode
 
-Firebase Authentication - For secure login/logout functionalities.
+3. Make sure the GoogleService-Info.plist file is properly added
 
-MVVM Architecture - Ensuring a clean, maintainable codebase.
+4. Run the app on Simulator or a real device
 
-📂 Project Structure
-EduMatrix Admin/ — Main source code folder containing Views, Models, and Services.
+## Features
 
-Assets.xcassets/ — App icons, images, and color assets.
+- Admin dashboard
+- Educator onboarding management
+- Course approval system
+- Help and support view
+- Login, logout, and forgot password functionality using Firebase
 
-.github/workflows/ — GitHub Actions CI setup (optional for Swift Lint/testing).
+## Developed by
 
-GoogleService-Info.plist — Firebase configuration file.
-
-Extensions/ — Helpful SwiftUI color extensions.
-
-🚀 Getting Started
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/alexdiv12/TLMS-Educator_Admin.git
-Open EduMatrix Admin.xcodeproj in Xcode.
-
-Install dependencies (if any) using Swift Package Manager (SPM).
-
-Make sure you have your own GoogleService-Info.plist file linked correctly for Firebase.
-
-Run on an iOS Simulator or a real device.
-
-✨ Features
-Admin dashboard for easy management.
-
-Educator onboarding and profile management.
-
-Course approval system.
-
-FAQ/help support view.
-
-Secure login/logout with Firebase Authentication.
-
-Forgot Password and Password Reset functionality.
-
-👨‍💻 Developed by
 Divyanshu Rai
 
-[Your Team Members if any — optional]
+## License
 
-📜 License
-This project is licensed for educational and project purposes.
-Feel free to use, modify, and improve it!
+This project is open for educational and project use.
 
